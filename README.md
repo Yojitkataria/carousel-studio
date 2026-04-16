@@ -2,10 +2,15 @@
 
 Turn messy ideas into **ready-to-post Instagram creatives** — with structured storytelling, AI + fallback reliability, and real product-level iteration.
 
-🔗 Live Demo: [ADD YOUR VERCEL LINK]  
-📦 GitHub: [THIS REPO]
+🔗 Live Demo: [Launch Carousel Studio](https://carousel-studio-yojit.vercel.app/)
+
+📦 GitHub: https://github.com/Yojitkataria/carousel-studio
 
 ---
+
+## 🖼️ UI screenshot
+<img width="1004" height="1909" alt="image" src="https://github.com/user-attachments/assets/b11dd169-0fb6-480c-b9bf-adc585a02d35" />
+
 
 ## ✨ Problem
 
@@ -122,6 +127,18 @@ It combines:
 7. User edits / regenerates / exports
 
 ---
+
+## 🗄️ Data Layer (Supabase)
+
+Carousel Studio persists user work to simulate a real content workflow:
+
+- Projects table → stores idea, tone, format
+- Slides table → stores structured slide data per project
+- Enables history, restore, and iteration
+
+![Database Schema]
+
+
 
 ## 🔄 Generation Flow
 
