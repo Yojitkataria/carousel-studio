@@ -1,0 +1,27 @@
+import type { Metadata, Viewport } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Carousel Studio — AI Social Media Generator",
+  description: "Turn any idea into a ready-to-post Instagram carousel",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
