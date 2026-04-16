@@ -136,7 +136,7 @@ Carousel Studio persists user work to simulate a real content workflow:
 - Slides table → stores structured slide data per project
 - Enables history, restore, and iteration
 
-![Database Schema]
+![Database Schema](./public/db-schema.png)
 
 
 
